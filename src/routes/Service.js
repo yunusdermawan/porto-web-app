@@ -1,10 +1,17 @@
 import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import AboutImg from "../assets/pexels-fauxels-3183198.jpg"
 
 function Service() {
     return(
         <>
         <Navbar />
-        <h1>This is Service</h1>
+        <Hero 
+        clName="hero"
+        heroImg={AboutImg}
+        title="Service"
+        btnClass="hide"
+        />
         </>
     )
 }

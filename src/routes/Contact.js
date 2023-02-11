@@ -1,10 +1,17 @@
 import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import AboutImg from "../assets/pexels-ken-tomita-389819.jpg"
 
 function Contact() {
     return(
         <>
         <Navbar />
-        <h1>This is Contact</h1>
+        <Hero 
+        clName="hero"
+        heroImg={AboutImg}
+        title="Contact"
+        btnClass="hide"
+        />
         </>
     )
 }

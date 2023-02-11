@@ -9,11 +9,8 @@ function About() {
         <Hero 
         clName="hero"
         heroImg={AboutImg}
-        title="Grow Better"
-        text="We Help You With Your Brand"
-        btnText="Business Plan"
-        url="/"
-        btnClass="show"
+        title="About"
+        btnClass="hide"
         />
         </>
     )
