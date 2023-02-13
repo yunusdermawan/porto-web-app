@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Products from "../components/Products";
+import Testimony from "../components/Testimony";
 
 function Home() {
     return(
@@ -16,6 +17,7 @@ function Home() {
         btnClass="show"
         />
         <Products />
+        <Testimony />
         </>
     )
 }

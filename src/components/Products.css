@@ -15,6 +15,14 @@
     margin-top: 4.5rem;
 }
 
+.first-product-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
 .product-text {
     width: 45%;
     text-align: start;
@@ -54,6 +62,13 @@
     }
 
     .first-product {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+
+    }
+
+    .first-product-reverse {
         display: flex;
         flex-direction: column-reverse;
         margin-top: 2.5rem;
