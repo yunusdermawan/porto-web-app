@@ -1,6 +1,8 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import AboutImg from "../assets/pexels-fauxels-3183198.jpg"
+import Footer from "../components/Footer";
+import Testimony from "../components/Testimony";
 
 function Service() {
     return(
@@ -12,6 +14,8 @@ function Service() {
         title="Service"
         btnClass="hide"
         />
+        <Testimony />
+        <Footer />
         </>
     )
 }
